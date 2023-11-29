@@ -1,5 +1,5 @@
 # Práctica II: Búsqueda heurística sin adversarios.
-
+    El propósito de esta práctica es que el alumno reutilice código que implemen-ta el algoritmo A*. Se bajará código de Github, y lo utilizará para ejecutareste algoritmo para un grafo concreto.
 
 ## Manual de usuario
 
@@ -10,7 +10,7 @@
      git clone https://github.com/Dulibeth/IA-practica2.git
      ```
 2. **Ejecutar**
-    - Una vez dentro del proyecto, ingresa el siguiente comando en tu terminal.
+    - Una vez dentro del proyecto, ingresa el siguiente comando en tu terminal:
     
       ```
         ant run_main
@@ -52,7 +52,7 @@
     ```
     final Map<Graph.Vertex<T>,Integer> fScore = new HashMap<Graph.Vertex<T>,Integer>();
     ```
-4. ¿Qué método habría que modificar para que la heurística representarala **distancia aérea** entre vértices?
+4. ¿Qué método habría que modificar para que la heurística representar la **distancia aérea** entre vértices?
 
     El método que habría que modificar es **"heuristicCostEstimate"**. Este método proporciona una estimación heurística del costo restante desde un nodo hasta el objetivo. Actualmente, devuelve un valor estático de 1 para cada nodo. La modificación necesaria consistiría en reconfigurar este método para implementar la fórmula de la distancia euclidiana y así poder calcular la distancia aérea entre los nodos, empleando las coordenadas espaciales de los vértices (x, y).
 
