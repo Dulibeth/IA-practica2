@@ -1,5 +1,6 @@
 # Práctica II: Búsqueda heurística sin adversarios.
-    El propósito de esta práctica es que el alumno reutilice código que implemen-ta el algoritmo A*. Se bajará código de Github, y lo utilizará para ejecutareste algoritmo para un grafo concreto.
+
+El propósito de esta práctica es que el alumno reutilice código que implemen-ta el algoritmo A*. Se bajará código de Github, y lo utilizará para ejecutareste algoritmo para un grafo concreto.
 
 ## Manual de usuario
 
